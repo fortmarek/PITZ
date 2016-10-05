@@ -10,7 +10,7 @@ def vyberslovo():
     with open(cesta) as file:
         slova = file.read().splitlines()
     y = random.randrange(0, len(slova)-1, 1)
-    return slova[y]
+    return slova_crash[cry]
 
 
 def hadej(word, uhodl):
